@@ -8,7 +8,7 @@
     <title>025-Forms</title>
 </head>
 <body>
-    <form class="form-github">
+    <!-- <form class="form-github">
         <label for="username-email">Username or email address</label>
         <input type="text" type="email" id="username-email">
         <div class="wrap-password">
@@ -18,25 +18,28 @@
         </div>
         <input type="password" id="password">
         <button class="button-sign">Sign in</button>
-    </form>
+    </form> -->
 
-
-
-
-    <!-- <form method="get"class="form">
+    <form method="get"class="form">
         <lable>Type your name
-            <input type="text"/>
+            <input type="text" name="username"/>
         </lable>
         <lable class="flex-row">Type your nickname
             <input type="text"/>
         </lable>
         <label for="email">Type your email</label>
-        <input type="emai" id="email" placeholder="mail@example.com"/>
+        <input type="emai" id="email" name="email" placeholder="mail@example.com"/>
         <input type="password" placeholder="Type your password">
         <input type="submit">
         <label for="tel-number">Type your number</label>
         <input type="tel" id="tel-number" placeholder="+380501234567">
-        <button>Click me</button> -->
+        Choose yur gender:
+        <label><input type="radio" name="gender" value="male"/> Male</label>
+        <label><input type="radio"name="gender" value="female"/> Female</label>
+        <label><input type="radio" name="gender" value="non-binary"/> Non-binary</label>
+
+
+        <button>Click me</button>
     </form>
 
 
