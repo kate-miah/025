@@ -21,24 +21,52 @@
     </form> -->
 
     <form method="get"class="form">
-        <lable>Type your name
+        <lable for="name-field">Type your name
             <input type="text" name="username"/>
         </lable>
         <lable class="flex-row">Type your nickname
             <input type="text"/>
         </lable>
-        <label for="email">Type your email</label>
-        <input type="emai" id="email" name="email" placeholder="mail@example.com"/>
-        <input type="password" placeholder="Type your password">
+        <label for="email">Type your email <span class="red-star">*</span></label>
+        <input 
+            type="emai" 
+            id="email" 
+            name="email" 
+            placeholder="mail@example.com" required />
+        <input 
+            type="password" 
+            placeholder="Type your password" required>
         <input type="submit">
         <label for="tel-number">Type your number</label>
-        <input type="tel" id="tel-number" placeholder="+380501234567">
-        Choose yur gender:
-        <label><input type="radio" name="gender" value="male"/> Male</label>
-        <label><input type="radio"name="gender" value="female"/> Female</label>
-        <label><input type="radio" name="gender" value="non-binary"/> Non-binary</label>
-
-
+        <input 
+            type="tel"  
+            id="tel-number" 
+            placeholder="+380501234567">
+        <span class="gender-label">Choose yur gender:</span>
+        <label>
+            <input 
+                type="radio"   
+                name="gender" 
+                value="male"
+                required/> Male</label>
+        <label>
+            <input 
+                type="radio"
+                name="gender" 
+                value="female"/> Female</label>
+        <label>
+            <input 
+                type="radio" 
+                name="gender" 
+                value="non-binary"/> Non-binary</label>
+        <label> 
+            <input 
+                type="checkbox" 
+                name="adult"><span>Are you adult?</span></label>
+        <label> 
+            <input 
+            type="checkbox" 
+            name="agree">Are you agree with rules?</label>
         <button>Click me</button>
     </form>
 

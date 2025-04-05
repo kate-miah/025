@@ -57,3 +57,50 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
+/* input:checked + span{
+    border: 1px solid red;
+} */
+
+.red-star {
+    color: red;
+    font-size: 1.1em;
+}
+.gender-label::after {
+    content: '*';
+    color: red;
+}
+
+lable[for="name-field"] {
+    background-color: blanchedalmond;
+}
+
+input[type="text"] {
+    background-color: yellowgreen;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: violet;
+    border-radius: 2px;
+}
+input[type="checkbox"]:checked {
+    background-color: white;
+    border: 3px solid violet;
+    background-image: ;
+}
+
+
+/* 
+input:required {
+    background-color: rgb(144, 243, 247);
+}
+
+input:required::after {
+    content: '*';
+    color: red;
+    display: block;
+    position: absolute;
+} */
