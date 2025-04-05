@@ -19,8 +19,37 @@
         <input type="password" id="password">
         <button class="button-sign">Sign in</button>
     </form> -->
+    
+    <form method="get" class="signup">Signup form
+        <label for="user-id">User ID
+        </label>
+        <input type="text" name="useid" id="user-id">
 
-    <form method="get"class="form">
+        <label for="password">Password
+        </label> 
+        <input type="password" name="password" id="password">
+
+        <label for="username">Name
+        </label>
+        <input type="text" name="username" id="username">
+
+        <label for="country">Country</label>
+        <input type="text" name="country" list="country" placeholder="Select An Option">
+            <datalist  name="country" id="country">
+                <option value="country"></option>
+            </datalist>
+
+        <label for="zip-code">Zip Code</label>
+        <input type="text" name="zip-code" id="zip-code">
+
+        <label for="email">Email</label>
+        <input 
+            type="emai" 
+            id="email" 
+            name="email"/>
+
+    </form>
+    <!-- <form method="get"class="form">
         <lable for="name-field">Type your name
             <input type="text" name="username"/>
         </lable>
@@ -68,7 +97,6 @@
             type="checkbox" 
             name="agree">Are you agree with rules?</label>
 
-
         <input type="file">
         <input type="hidden">
         <input type="range" min="1" max="100">
@@ -102,9 +130,8 @@
               </datalist>
         </label>    
 
-
         <button>Click me</button>
-    </form>
+    </form> -->
 
 
 </body>

@@ -1,3 +1,30 @@
+
+.signup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 1%;
+   
+}
+
+label {
+    text-align: left;
+    color: blueviolet;
+    padding: 2%;
+
+}
+input {
+    border: 2px solid rgb(103, 175, 135);
+    border-radius: 8px;
+    height: 25px;    
+}
+
+
+
 /* .form-github {
     font-family: sans-serif;
     font-size: 0.8em;
@@ -39,7 +66,7 @@ a {
 } */
 
 
-.form {
+/* .form {
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -58,10 +85,10 @@ a {
     justify-content: space-between;
 }
 
-/* input:checked + span{
+input:checked + span{
     border: 1px solid red;
-} */
-
+} 
+    
 .red-star {
     color: red;
     font-size: 1.1em;
@@ -90,7 +117,7 @@ input[type="checkbox"]:checked {
     background-color: white;
     border: 3px solid violet;
     background-image: ;
-}
+} */
 
 
 /* 
